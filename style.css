@@ -43,10 +43,6 @@ header{
     color: var(--cor-de-texto-2);
 }
 
-.titulo{
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black, -1px 1px 0 black;
-}
-
 .imagem{
     width: 30%;
     border: 4px solid;
