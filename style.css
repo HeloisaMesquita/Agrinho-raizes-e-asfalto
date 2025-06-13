@@ -44,7 +44,9 @@ header{
 
 .imagem{
     width: 15%;
-    margin: 5px 0;
+    margin: 10px 0;
+    height: max-content;
+    
 
 }
 
