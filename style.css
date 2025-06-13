@@ -24,12 +24,12 @@ font-family: "Fira Sans Condensed", sans-serif;
 
 header{
     display: flex;
-    justify-content: space-around;
     padding: 5px;
     border: 2px solid var(--cor-de-borda);
     color: var(--cor-de-texto-2);
     background-color: var(--cor-do-cabeçalho);   
     align-items: flex-end;
+    justify-content: space-around;
 }
 
 .objetivo{
