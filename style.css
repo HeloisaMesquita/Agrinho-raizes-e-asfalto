@@ -29,7 +29,7 @@ header{
     color: var(--cor-de-texto-2);
     background-color: var(--cor-do-cabeçalho);   
     align-items: flex-end;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .objetivo{
