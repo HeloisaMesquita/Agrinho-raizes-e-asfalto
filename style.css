@@ -49,7 +49,7 @@ header{
 
 .origem{
   background-color: var(--cor-de-fundo);
-  border: 8px var(--cor-de-borda) double;
+  border: 8px 
   margin: 5px 0;
   padding: 15px;
   box-shadow: 0 2px 5px;
