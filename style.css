@@ -5,6 +5,7 @@
 --cor-de-fundo-3: #b1753c;
 --cor-de-texto:#e6bd73;
 --cor-de-texto-2: #8d6314;
+--cor-de-texto-3: #995617;
 --cor-do-cabeçalho: #884d15;
 --cor-de-borda: #694522;
 
@@ -33,6 +34,18 @@ header{
     justify-content: center;
 }
 
+.apresentacao{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 5px 0;
+    padding: 15px;
+    border: 2px solid var(--cor-de-borda);
+    background-color: var(--cor-de-fundo-2);
+    color: var(--cor-de-t);
+}
+
 .objetivo{
     display: flex;
     margin: 5px 0;
@@ -41,12 +54,6 @@ header{
     background-color: var(--cor-de-fundo-3);
     color: var(--cor-de-texto);
     justify-content: center;
-}
-
-.imagem{
-    width: 10%;
-    margin: 2px 0;
-    height: 105%;
 }
 
 .origem{
@@ -58,15 +65,10 @@ header{
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
 
-.apresentacao{
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    margin: 5px 0;
-    padding: 15px;
-    border: 2px solid var(--cor-de-borda);
-    background-color: var(--cor-de-fundo-2);
+.imagem{
+    width: 10%;
+    margin: 2px 0;
+    height: 105%;
 }
 
 .footer{
@@ -76,5 +78,5 @@ header{
     padding: 15px;
     border: 2px solid var(--cor-de-borda);
     background-color: var(--cor-de-fundo-3);
-    color: var(--cor-de-texto);    
+    color: var(--cor-de-texto-3);    
 }
