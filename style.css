@@ -73,10 +73,11 @@ header{
 
 .rodape{
     display: flex;
-    justify-content: center;
     margin: 5px 0;
     padding: 15px;
     border: 2px solid var(--cor-de-borda);
     background-color: var(--cor-de-fundo-2);
-    color: var(--cor-de-texto-3);    
+    color: var(--cor-de-texto-3);
+    align-items: center;
+    flex-direction: column;   
 }
