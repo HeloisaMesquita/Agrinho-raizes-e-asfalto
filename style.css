@@ -49,7 +49,7 @@ header{
 .objetivo{
     display: flex;
     margin: 5px 0;
-    padding: 40px;
+    padding: 20px;
     border: 2px solid var(--cor-de-borda);
     background-color: var(--cor-de-fundo-3);
     color: var(--cor-de-texto);
