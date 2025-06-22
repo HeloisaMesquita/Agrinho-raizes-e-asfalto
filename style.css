@@ -18,7 +18,8 @@
 }
 
 body{
-background-color: transparent;
+background: #F3C46E;
+background: linear-gradient(90deg,rgba(243, 196, 110, 1) 0%, rgba(136, 77, 21, 1) 35%, rgba(136, 77, 21, 1) 65%, rgba(243, 196, 110, 1) 100%);
 font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-style: normal;
