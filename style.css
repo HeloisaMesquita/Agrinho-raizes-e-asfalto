@@ -65,7 +65,6 @@ button{
     border-color: transparent;
     color: var(--cor-de-borda);
     cursor: pointer;
-    font-family: "Fascinate", system-ui;
     font-weight: 400;
     font-style: normal;
 }
