@@ -8,8 +8,7 @@
 --cor-de-texto-3: #995617;
 --cor-do-cabeçalho: #884d15;
 --cor-de-borda: #694522;
---botoes: #eca92d;
---botoes-2: #f8c566;
+--botao: #402308;
 } 
 
 .fascinate-regular {
@@ -70,7 +69,7 @@ button{
 }
 
 a{
-  color: var(--cor-de-texto-3)
+  color: var(--botao)
 }
 
 .origem{
