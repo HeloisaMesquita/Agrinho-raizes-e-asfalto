@@ -64,7 +64,7 @@ header{
 .botao{
     border-radius: 20px;
     margin-left: 10px;
-    height: 200px;
+    height: 100px;
     background-color: var(--botoes);
     flex: 1;
     transition: .3s all ease;
