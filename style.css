@@ -78,8 +78,6 @@ button{
     width: 12rem;
     position: relative;
     height: 4rem;
-    display: flex
-    outline: none;
     background-color: transparent;
     color: var(--cor-de-borda);
     transition: 2s;
