@@ -76,7 +76,7 @@ header{
 button{
     width: 15rem;
     position: relative;
-    height: 4rem;
+    height: 6rem;
     background-color: transparent;
     border-color: transparent;
     color: var(--cor-de-borda);
