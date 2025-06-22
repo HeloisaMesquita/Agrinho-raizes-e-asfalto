@@ -74,9 +74,9 @@ header{
 }
 
 button{
-    width: 15rem;
+    width: 20rem;
     position: relative;
-    height: 6rem;
+    height: 4rem;
     background-color: transparent;
     border-color: transparent;
     color: var(--cor-de-borda);
