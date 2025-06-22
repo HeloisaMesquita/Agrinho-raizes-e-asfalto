@@ -83,6 +83,9 @@ button{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: uppercase;
   background-color: transparent;
+  color: var(--cor-de-borda);
+  transition: 2s;
+  cursor: pointer;
 }
 
 
