@@ -72,7 +72,7 @@ header{
 
 .botao:hover{
     flex: 2;
-    background-color: rgb(207, 207, 207);
+    background-color:var(--cor-de-fundo)
 }
 
 
