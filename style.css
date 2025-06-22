@@ -56,6 +56,14 @@ header{
     justify-content: center;
 }
 
+.voltar{
+  display: flex;
+    margin: 5px 0;
+    padding: 40px;
+    color: var(--botao);
+    justify-content: flex-start;
+}
+
 button{
     width: 10rem;
     position: relative;
