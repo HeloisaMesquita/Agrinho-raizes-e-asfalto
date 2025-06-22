@@ -64,7 +64,6 @@ header{
 .botao{
     border-radius: 20px;
     margin-left: 10px;
-    height: 100px;
     background-color: var(--botoes);
     flex: 1;
     transition: .3s all ease;
@@ -76,16 +75,15 @@ header{
 }
 
 button{
-  width: 12rem;
-  position: relative;
-  height: 4rem;
-  outline: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-transform: uppercase;
-  background-color: transparent;
-  color: var(--cor-de-borda);
-  transition: 2s;
-  cursor: pointer;
+    width: 12rem;
+    position: relative;
+    height: 4rem;
+    display: flex
+    outline: none;
+    background-color: transparent;
+    color: var(--cor-de-borda);
+    transition: 2s;
+    cursor: pointer;
 }
 
 
