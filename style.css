@@ -58,9 +58,9 @@ header{
 }
 
 button{
-    width: 12rem;
+    width: 6rem;
     position: relative;
-    height: 4rem;
+    height: 2rem;
     background-color: transparent;
     border-color: transparent;
     color: var(--cor-de-borda);
