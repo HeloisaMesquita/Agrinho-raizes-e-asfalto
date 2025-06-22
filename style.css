@@ -8,6 +8,7 @@
 --cor-de-texto-3: #995617;
 --cor-do-cabeçalho: #884d15;
 --cor-de-borda: #694522;
+--botoes: #d3931c;
 
 } 
 
@@ -17,14 +18,14 @@
   font-style: normal;
 }
 
-body{
+.body{
 background-color: var(--cor-de-fundo);
 font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-header{
+.header{
     display: flex;
     padding: 5px;
     border: 2px solid var(--cor-de-borda);
@@ -55,6 +56,25 @@ header{
     color: var(--cor-de-texto);
     justify-content: center;
 }
+
+.botoes{
+    display:flex;
+}
+
+.botao{
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 200px;
+    background-color: var(--botoes);
+    flex: 1;
+    transition: .3s all ease;
+}
+
+.botao:hover{
+    flex: 2;
+    background-color: rgb(207, 207, 207);
+}
+
 
 .origem{
   background-color: var(--cor-de-fundo);
