@@ -79,6 +79,7 @@ button{
     position: relative;
     height: 4rem;
     background-color: transparent;
+    border-color: transparent;
     color: var(--cor-de-borda);
     transition: 2s;
     cursor: pointer;
