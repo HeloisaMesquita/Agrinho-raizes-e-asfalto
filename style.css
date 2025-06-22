@@ -66,7 +66,6 @@ header{
     margin-left: 10px;
     background-color: var(--botoes);
     flex: 1;
-    transition: .2s all ease;
 }
 
 .botao:hover{
@@ -81,7 +80,6 @@ button{
     background-color: transparent;
     border-color: transparent;
     color: var(--cor-de-borda);
-    transition: 2s;
     cursor: pointer;
 }
 
