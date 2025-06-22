@@ -18,8 +18,7 @@
 }
 
 body{
-background: #F3C46E;
-background: linear-gradient(90deg,rgba(243, 196, 110, 1) 0%, rgba(136, 77, 21, 1) 35%, rgba(136, 77, 21, 1) 65%, rgba(243, 196, 110, 1) 100%);
+background-color: var(--cor-de-fundo);
 font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -30,7 +29,8 @@ header{
     padding: 5px;
     border: 2px solid var(--cor-de-borda);
     color: var(--cor-de-texto);
-    background-color: var(--cor-do-cabeçalho);   
+    background: #F3C46E;
+    background: linear-gradient(90deg,rgba(243, 196, 110, 1) 0%, rgba(136, 77, 21, 1) 35%, rgba(136, 77, 21, 1) 65%, rgba(243, 196, 110, 1) 100%);
     align-items: flex-end;
     justify-content: center;
 }
