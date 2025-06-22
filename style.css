@@ -26,8 +26,8 @@ font-family: "Fira Sans Condensed", sans-serif;
 
 header{
     display: flex;
-    padding: 5px;
-    border: 2px solid var(--cor-de-borda);
+    padding: 5rem;
+    border: 2rem solid var(--cor-de-borda);
     color: var(--cor-de-texto);
     background-color: var(--cor-do-cabeçalho);   
     align-items: flex-end;
@@ -39,8 +39,9 @@ header{
     justify-content: center;
     flex-wrap: nowrap;
     flex-direction: column;
-    padding: 15px;
-    border: 2px solid var(--cor-de-borda);
+    margin: 5rem;
+    padding: 15rem;
+    border: 2rem solid var(--cor-de-borda);
     background-color: var(--cor-de-fundo-2);
     color: var(--cor-de-texto-3);
     align-items: center;
@@ -48,9 +49,9 @@ header{
 
 .objetivo{
     display: flex;
-    margin: 5px 0;
-    padding: 20px;
-    border: 2px solid var(--cor-de-borda);
+    margin: 5rem 0;
+    padding: 20rem;
+    border: 2rem solid var(--cor-de-borda);
     background-color: var(--cor-de-fundo-3);
     color: var(--cor-de-texto);
     justify-content: center;
@@ -58,9 +59,9 @@ header{
 
 .voltar{
   display: flex;
-    margin: 5px 0;
-    padding: 20px;
-    border: 2px solid var(--cor-de-borda);
+    margin: 5rem 0;
+    padding: 20rem;
+    border: 2rem solid var(--cor-de-borda);
     background-color: var(--cor-de-fundo-3);
     color: var(--botao);
     justify-content: flex-start;
@@ -84,24 +85,24 @@ a{
 
 .origem{
   background-color: var(--cor-de-fundo);
-  border: 4px solid var(--cor-de-borda);
+  border: 4rem solid var(--cor-de-borda);
   color: var(--cor-de-texto-2);
-  margin: 2px 0;
-  padding: 15px;
-  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  margin: 2rem 0;
+  padding: 15rem;
+  box-shadow: 0 15rem 20rem rgba(0, 0, 0, 0.2);
 }
 
 .imagem{
     width: 10%;
-    margin: 2px 0;
+    margin: 2rem 0;
     height: 105%;
 }
 
 .rodape{
     display: flex;
-    margin: 5px 0;
-    padding: 15px;
-    border: 2px solid var(--cor-de-borda);
+    margin: 5rem 0;
+    padding: 15rem;
+    border: 2rem solid var(--cor-de-borda);
     background-color: var(--cor-de-fundo-2);
     color: var(--cor-de-texto-3);
     align-items: center;
