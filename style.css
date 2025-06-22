@@ -85,7 +85,6 @@ button{
     cursor: pointer;
 }
 
-
 .origem{
   background-color: var(--cor-de-fundo);
   border: 4px solid var(--cor-de-borda);
