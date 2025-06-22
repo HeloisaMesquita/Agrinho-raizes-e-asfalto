@@ -86,6 +86,7 @@ a{
   color: var(--cor-de-texto-2);
   margin: 2px 0;
   padding: 15px;
+  border: var(--cor-de-borda);
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
 
