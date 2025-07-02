@@ -6,6 +6,9 @@
 --botao: #402308;
 } 
 
+@media screen {756 px
+}
+
 .fascinate-regular {
   font-family: "Fascinate", system-ui;
   font-weight: 400;
