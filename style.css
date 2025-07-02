@@ -6,7 +6,37 @@
 --botao: #402308;
 } 
 
-@media screen {756 px
+body{
+  background-color: var(--cor-de-fundo);
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+    display: flex;
+    padding: 5px;
+    color: var(--cor-de-texto);
+    background: #F3C46E;
+    background: linear-gradient(91deg, rgba(243, 196, 110, 1) 0%, rgba(136, 77, 21, 1) 15%, rgba(115, 64, 16, 1) 50%, rgba(136, 77, 21, 1) 85%, rgba(243, 196, 110, 1) 100%);
+    align-items: flex-end;
+    justify-content: center;
+}
+
+button{
+    width: 10rem;
+    position: relative;
+    height: 2rem;
+    background-color: transparent;
+    border-color: transparent;
+    color: var(--botao);
+    cursor: pointer;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+  color: var(--botao)
 }
 
 .fascinate-regular {
@@ -61,7 +91,7 @@
     height: 105%;
 }
 
-.rodape{
+footer{
     display: flex;
     margin: 5px 0;
     padding: 15px;
@@ -72,35 +102,10 @@
     flex-direction: column;   
 }
 
-body{
-background-color: var(--cor-de-fundo);
-font-family: "Fira Sans Condensed", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
-header{
-    display: flex;
-    padding: 5px;
-    color: var(--cor-de-texto);
-    background: #F3C46E;
-    background: linear-gradient(91deg, rgba(243, 196, 110, 1) 0%, rgba(136, 77, 21, 1) 15%, rgba(115, 64, 16, 1) 50%, rgba(136, 77, 21, 1) 85%, rgba(243, 196, 110, 1) 100%);
-    align-items: flex-end;
-    justify-content: center;
-}
+@media (max-width: 768px) {
 
-button{
-    width: 10rem;
-    position: relative;
-    height: 2rem;
-    background-color: transparent;
-    border-color: transparent;
-    color: var(--botao);
-    cursor: pointer;
-    font-weight: 400;
-    font-style: normal;
-}
-
-a{
-  color: var(--botao)
-}
+    body{
+      font-weight: 400;
+    }
+  }
